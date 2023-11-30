@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sec1{
+    background-color: rgb(234,237,255);
+}
+.nav1{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: rgb(234,237,255);
+    padding: 20px 70px;
+}
+.nav1 img{
+    size: 2px;
+}
+.head1{
+    display: flex;
+    padding: 0px 50px;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.nav2{
+    margin-top: 100px;
+    margin-left: 70px;
+    display: flex;
+}
+.nav2 img{
+    justify-content: left;
+    width: 50%;
+}
+.ndiv1{
+    margin-right: 450px;
+
+}
+.ndiv2{
+    width: 100% ;
+    height: 600px;
+    background-image: url(images/edozzier_header_mac.png);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tsec .btnsec4:hover{
+    border: 4px solid gray;
+}
+.sec2{
+    background-color: white;
+    height: 1200px;
+}
+strong{
+    /* padding-top: 10px; */
+    font-weight: 100;
+    font-family: sans-serif;
+    /* font-stretch: 20rem; */
+    font-size: 2.5rem;
+}
+.s2div1{
+    display:block;
+    margin: 90px 450px;
+    /* align-items: center; */
+    text-align: center;
+}
+.s2div2 ul{
+    width: 50% ;
+    height: 250px;
+    background-image: url(images/edozzier-app.png);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
